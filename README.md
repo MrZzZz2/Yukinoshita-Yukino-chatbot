@@ -41,7 +41,8 @@ python chatbot.py
 
 - 你可以修改prompt，自定义你喜欢的角色进行对话
 - 现在实现的功能都很基本，你可以添加的功能：
-  - 使用AI决定什么时候该储存记忆
-  - 决定存储新记忆时和旧记忆使什么方法融合（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时进行记忆压缩、总结）
-  - 使用AI决定该忘记什么样的记忆（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时忘记一部分不重要的记忆）
-  - 我记得李宏毅老师好像有个功能可以加速语言模型的对话生成速度，详见[bilibili视频](https://www.bilibili.com/video/BV1BJ4m1e7g8?spm_id_from=333.788.videopod.episodes&vd_source=108c7957d88a7eafb172b276df7068cf&p=33)或[youtube视频](https://www.youtube.com/watch?v=MAbGgsWKrg8&list=PLJV_el3uVTsPz6CTopeRp2L2t4aL_KgiI&index=17)
+  - 改进语言模型（针对特定功能做STF或RLHF后的模型效果可能会更好，但是finetune后的语言模型原来的能力会有损失，解决遗忘问题这里就有很多方法啦[bilibili视频](https://www.bilibili.com/video/BV1aiADewEBC?spm_id_from=333.788.videopod.episodes&vd_source=108c7957d88a7eafb172b276df7068cf&p=15)，比如使用使用原语言模型训练的5%资料（`没有原资料？让语言模型生成`）+你finetune的资料进行训练）
+  - 使用AI决定什么时候该储存记忆（每次对话完使用语言模型，检索记忆库与现在的对话，让它自己决定是否要进行记忆）
+  - 决定存储新记忆时和旧记忆使什么方法融合（使用一个语言模型，定时进行记忆压缩、总结）
+  - 使用AI决定该忘记什么样的记忆（使用一个语言模型，定时忘记一部分不重要的记忆）
+  - 我记得李宏毅老师2024年的课讲过好像有个功能可以加速语言模型的对话生成速度，详见[bilibili视频](https://www.bilibili.com/video/BV1BJ4m1e7g8?spm_id_from=333.788.videopod.episodes&vd_source=108c7957d88a7eafb172b276df7068cf&p=33)或[youtube视频](https://www.youtube.com/watch?v=MAbGgsWKrg8&list=PLJV_el3uVTsPz6CTopeRp2L2t4aL_KgiI&index=17)
