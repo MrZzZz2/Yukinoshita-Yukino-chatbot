@@ -41,7 +41,7 @@ python chatbot.py
 
 - 你可以修改prompt，自定义你喜欢的角色进行对话
 - 现在实现的功能都很基本，你可以添加的功能：
-  · 使用AI决定什么时候该储存记忆
-  · 决定存储新记忆时和旧记忆使什么方法融合（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时进行记忆压缩、总结）
-  · 使用AI决定该忘记什么样的记忆（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时忘记一部分不重要的记忆）
-  · 我记得李宏毅老师好像有个功能可以加速语言模型的对话生成速度，详见[视频](https://www.bilibili.com/video/BV1BJ4m1e7g8?spm_id_from=333.788.videopod.episodes&vd_source=108c7957d88a7eafb172b276df7068cf&p=33)
+  - 使用AI决定什么时候该储存记忆
+  - 决定存储新记忆时和旧记忆使什么方法融合（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时进行记忆压缩、总结）
+  - 使用AI决定该忘记什么样的记忆（直接使用一个语言模型（针对这个功能做STF或RLHF后的模型效果可能会更好）下prompt，定时忘记一部分不重要的记忆）
+  - 我记得李宏毅老师好像有个功能可以加速语言模型的对话生成速度，详见[bilibili视频](https://www.bilibili.com/video/BV1BJ4m1e7g8?spm_id_from=333.788.videopod.episodes&vd_source=108c7957d88a7eafb172b276df7068cf&p=33)或[youtube视频](https://www.youtube.com/watch?v=MAbGgsWKrg8&list=PLJV_el3uVTsPz6CTopeRp2L2t4aL_KgiI&index=17)
