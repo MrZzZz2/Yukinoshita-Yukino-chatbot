@@ -31,7 +31,7 @@ python chatbot.py
 
 ## 📂 文件说明
 
-- `main.py`：核心脚本
+- `chatbot.py`：核心脚本
 - `files/memory.json`：对话记忆存储
 - `requirements.txt`：依赖文件
 - `.gitignore`：忽略上传的文件
