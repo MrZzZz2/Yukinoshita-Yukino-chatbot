@@ -14,7 +14,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/yourname/your-project.git
+git clone https://github.com/MrZzZz2/Yukinoshita-Yukino-chatbot.git
 ````
 
 ### 2. 安装依赖
